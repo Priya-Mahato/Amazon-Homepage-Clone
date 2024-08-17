@@ -36,10 +36,12 @@
 
 .border:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 
 /** box2 **/
+
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
@@ -114,10 +116,43 @@
 
 
 .nav-lang{
-    width: 0.9rem;
-    height: 1.1838rem;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+}
+
+
+.nav-lang i{
+    font-size: 20px;
+}
+
+
+.nav-lang div{
+    font-size: 15px;
+    padding: 4px;
+}
+
+
+.nav-lang .dropdown{
+    font-size: 10px;
+    padding: 2px 0px 0px 0px;
+}
+
+
+.nav-lang:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+
+/** box5 **/
+.nav-signin .caret{
+    width: 10px;
+    font-size: 10px;
+    padding: 2px 0px 0px 0px;
 }
 
 
@@ -160,24 +195,70 @@ span{
     color: white;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 42px;
+    padding-right: 20px;
 }
 
 
-.panel-options p{
-    display: inline;
-    margin-left: 13px;
+.panel-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 35px;
+    padding: 5px;
 }
 
 
-.panel-options{
+.panel-all i{
+    font-size: 15px;
+}
+
+
+.panel-all div{
+    font-size: 15px;
+    padding: 4px;
+}
+
+.panel-all:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+
+.panel-options {
+    display: flex;
     width: 70%;
-    font-size: 0.85rem;
+}
+
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+}
+
+
+.items:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
 }
 
 
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
+    width: 20%;
+    text-align: center;
+}
+
+
+.panel-deals:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
